@@ -66,7 +66,7 @@ vrrp_script check_haproxy {
 } 
 vrrp_instance KUBE_API_LB { 
    state BACKUP 
-   interface #### ens160  #change it
+   interface ens160  #change it
    virtual_router_id 51 
    priority 100 
    virtual_ipaddress { 
