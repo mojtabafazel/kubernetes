@@ -77,3 +77,7 @@ vrrp_instance KUBE_API_LB {
    } 
 } 
 EOT 
+
+## systemctl restart keepalived 
+
+## systemctl status keepalived 
