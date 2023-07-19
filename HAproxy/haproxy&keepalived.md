@@ -1,4 +1,4 @@
-# vim /etc/haproxy/haproxy.cfg
+## vim /etc/haproxy/haproxy.cfg
 listen Stats-Page 
   bind *:8000 
   mode http 
@@ -22,4 +22,4 @@ backend be-apiserver
    server control-plane-2 192.168.73.135:6443 check 
    server control-plane-3 192.168.73.136:6443 check 
 
-   haproxy -c -f  /etc/haproxy/haproxy.cfg 
+  ## haproxy -c -f  /etc/haproxy/haproxy.cfg 
