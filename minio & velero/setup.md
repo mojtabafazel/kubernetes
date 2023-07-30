@@ -1,5 +1,5 @@
 https://github.com/vmware-tanzu/velero/releases/tag/v1.10.3
-
+wget https://github.com/vmware-tanzu/velero/releases/download/v1.10.3/velero-v1.10.3-linux-amd64.tar.gz
 download the latest vesion and ...
 tar xzf velero...
 ls velero-tansu
